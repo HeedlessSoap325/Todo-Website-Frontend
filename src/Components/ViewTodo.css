@@ -1,0 +1,65 @@
+.headdiv{
+    background-color: #282c34;
+    display: flex;
+    overflow: auto;
+    padding-bottom: 100%;
+}
+
+#backbutton{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #009118;
+    color: black;
+}
+
+#backbutton:hover {
+    background-color: #00cc22;
+}
+
+.maindiv{
+    position: absolute;
+    background-color: #5f636d;
+    max-width: 700px;
+    min-width: 700px;
+    padding: 20px;
+    border-radius: 25px;
+    left: calc(1080px / 5);
+    top: 10%;
+    height: auto;
+}
+
+#editbutton{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: transparent;
+}
+
+.todotitle{
+    text-align: center;
+    color: black;
+    align-self: center;
+    margin-bottom: 10px;
+    min-width: 600px;
+    max-width: 600px;
+}
+
+.tododescription{
+    background-color: transparent;
+    max-width: 600px;
+    min-width: 600px;
+    align-self: center;
+    color: black;
+    font-size: large;
+    height: fit-content;
+    resize: none;
+    
+}
+
+
+
+.tododescription::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}

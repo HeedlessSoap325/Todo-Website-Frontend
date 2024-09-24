@@ -1,0 +1,56 @@
+.headdiv{
+    display: flex;
+}
+
+.loginform{
+    background-color: #5f636d;
+    max-width: 600px;
+    min-width: 600px;
+    min-height: 500px;
+    align-self: center;
+    border-radius: 25px;
+    position: fixed;
+    left: calc(50% - 300px);
+    top: calc(25% - 100px);
+}
+
+.title{
+    padding-left: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lable{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.loginform .input{
+    background-color: #3e4148;
+    color: black;
+    border-radius: 25px;
+    border-width: 1px;
+    border-color: black;
+    min-width: 50%;
+    max-width: 50%;
+    min-height: 25px;
+    max-height: 25px;
+    margin-bottom: 20px;
+}
+
+#choiselable{
+    margin-top: 10px;
+    height: 0px;
+    font-size: smaller;
+}
+
+.loginform #button{
+    margin-top: 10px;
+    background-color: #009118;
+    border-radius: 25px;
+    color: black;
+    align-self: center;
+}
+
+#button:hover{
+    background-color: #00cc22;
+}

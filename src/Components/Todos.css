@@ -1,0 +1,128 @@
+#headcontainer{
+    display: table;
+    background-color: #282c34;
+}
+
+#maincontainer{
+    background-color: #282c34;
+    display: table;
+    align-items: center; 
+    justify-content: center;
+}
+
+#todospaper{
+    position: relative;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    text-align: center;
+    width: 280px;
+    height: 180px;
+    background-color: #434956;
+    color: #ffffff;
+    border-radius: 25px;
+}
+
+#todospaper pre#breack{
+    height: 10%;
+}
+
+#todospaper Button#edittodobutton{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: transparent;
+    color: rgb(25, 118, 210);
+    border-radius: 50px;
+    align-items: center;
+}
+
+
+#todospaper Button#deletetodobutton{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    color: rgb(25, 118, 210);
+}
+
+.dialog {
+    max-width: 350px;
+    min-width: 350px;
+    padding: 2rem;
+    border-radius: 25px;
+    border-radius: 0.5rem;
+    box-shadow: hsl(0 0% 0% / 10%) 0 0 0.5rem 0.25rem;
+    position: fixed;
+    align-self: center;
+    background-color: #848994;
+}
+  
+.dialog::backdrop {
+    background: hsl(0 0% 0% / 50%);
+}
+
+.dialog-delete-btn{
+    background-color: #ff0000;
+    border-radius: 25px;
+    border: 0;
+    width: 75px;
+    height: 40px;
+    margin-right: 50px;
+}
+
+.dialog-delete-btn:hover{
+    background-color: #cc0000;
+}
+
+.dialog-close-btn{
+    background-color: #4899ea;
+    border: 0;
+    width: 75px;
+    height: 40px;
+    margin-left: 50px;
+}
+
+.dialog-close-btn:hover{
+    background-color: #328ce7;
+}
+
+#todoinfodiv{
+    max-height: 80px;
+    max-width: 250px;
+}
+
+#todotitle{
+    padding-left: 10px;
+    white-space:nowrap;
+    font-size: 40px;
+}
+
+#tododescription{
+    padding-left: 10px;
+    white-space:nowrap;
+}
+
+.fade {
+    mask-image: linear-gradient(90deg,#000 60%,transparent);
+}
+
+#todocheckbox{
+    align-self: center;
+}
+
+#addtodobutton{
+    background-color: #009118;
+    color: black;
+    position: fixed;
+    right: 20px; 
+    bottom: 20px; 
+    border-radius: 25px; 
+    font-size: 15;
+}
+
+#addtodobutton:hover{
+    background-color: #00cc22;
+}
